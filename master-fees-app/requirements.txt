@@ -1,2 +1,5 @@
-streamlit
 pandas
+streamlit
+numpy
+altair
+openpyxl
