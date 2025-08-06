@@ -10,7 +10,7 @@ chf_to_eur = 1.07
 eur_to_tnd = 3.5
 
 # === Charger le fichier CSV ===
-df = pd.read_csv("Corrected_Masters_Quant_Table__B_Tier_for_19-20__C_Tier_from_21_.csv")
+df = pd.read_csv("masters.csv")
 
 # === Conversion des frais en euros ===
 def convert_to_eur(fee):
